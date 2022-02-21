@@ -8,7 +8,7 @@
   <div id="app">
     <div class="container">
       <h1>Contract Render</h1>
-      <getContract />
+      <getContract class="get-contract"/>
       <button 
         class="button"
         type="button"
@@ -35,8 +35,7 @@ export default {
     font-family: Avenir, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #2c3e50;
+    color: black;
     margin-top: 60px;
   }
 
@@ -46,9 +45,8 @@ export default {
     text-align: center;
   }
 
-  .text-hover {
-    background: blue;
-    color: black;
+  .get-contract {
+    text-align: left;
   }
 
   .text-clicked {

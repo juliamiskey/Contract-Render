@@ -1,7 +1,7 @@
 <template>
   <div class="text-block">
     <!-- use a loop to render the text -->
-    <div v-for="textBlock in textBlocks" :key="textBlock.id">
+    <div v-for="textBlock in textBlocks" :key="textBlock.id" class="text-block">
       {{ textBlock.text}}
     </div>
   </div>
@@ -127,4 +127,9 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
+.text-block > div:hover {
+    background: blue;
+    color: white;
+    cursor: pointer;
+}
 </style>
