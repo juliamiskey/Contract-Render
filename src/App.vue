@@ -8,7 +8,7 @@
   <div id="app">
     <div class="container">
       <h1>Contract Render</h1>
-      <TextBlock />
+      <getContract />
       <button 
         class="button"
         type="button"
@@ -20,12 +20,12 @@
 </template>
 
 <script>
-import TextBlock from './components/TextBlock.vue'
+import getContract from './components/getContract.vue'
 
 export default {
   name: 'App',
   components: {
-    TextBlock
+    getContract
   }
 }
 </script>
